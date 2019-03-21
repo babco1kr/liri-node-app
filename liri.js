@@ -3,6 +3,7 @@ var axios = require("axios");
 var keys = require("./keys.js");
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
+var moment = require("moment");
 
 
 var userInput = process.argv;
@@ -38,7 +39,7 @@ axios.get(queryURL).then(function(response) {
     for (i = 0; i < response.data.length; i++) {
         console.log("Venue Name: " + response.data[i].venue.name);
         console.log("Venue Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region);
-        console.log("Date of event: " + response.data[i].datetime);
+        console.log("Date of event: " + moment(response.data[i].datetime).format("L"));
     }
     // console.log(response.data[0]);
 });
