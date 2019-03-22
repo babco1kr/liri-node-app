@@ -4,6 +4,7 @@ var keys = require("./keys.js");
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 var moment = require("moment");
+var fs = require("fs");
 
 
 var userInput = process.argv;
@@ -13,6 +14,8 @@ var userInfo = userInput[3];
 for (i = 4; i < userInput.length; i++) {
     userInfo += "+" + userInput[i];
 }
+
+function runInfo () {
 
 switch(userRequest) {
     case "concert-this":
@@ -27,21 +30,24 @@ switch(userRequest) {
     movieSearch();
     break;
 
-    default:
-    console.log("error");
-}
+    case "do-what-it-says":
+    checkFile();
+    break;
 
+    default:
+    console.log("Invalid Input");
+}
+}
+runInfo();
 function concert () {
 var queryURL = "https://rest.bandsintown.com/artists/" + userInfo + "/events?app_id=codingbootcamp";
 console.log(queryURL);
 axios.get(queryURL).then(function(response) {
-    // console.log(response);
     for (i = 0; i < response.data.length; i++) {
         console.log("Venue Name: " + response.data[i].venue.name);
         console.log("Venue Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region);
         console.log("Date of event: " + moment(response.data[i].datetime).format("L"));
     }
-    // console.log(response.data[0]);
 });
 }
 
@@ -66,4 +72,25 @@ function movieSearch () {
         console.log("Plot: " + response.data.Plot);
         console.log("Actors: " + response.data.Actors);
     })
+}
+
+function checkFile () {
+    fs.readFile("random.txt", "utf8", function(error, data) {
+        if (error) {
+            console.log(error);
+          }
+        var dataArr = data.split(",");
+        // console.log(dataArr);
+        var dataArr2 = dataArr[1].split(" ");
+        // console.log(dataArr2);
+        userRequest = dataArr[0];
+        userInfo = dataArr2[0]
+        for (i = 1; i < dataArr2.length; i++) {
+            userInfo += "+" + dataArr2[i];
+        }
+        console.log(userRequest);
+        console.log(userInfo);
+        runInfo();
+        })
+        
 }
