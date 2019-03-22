@@ -52,12 +52,15 @@ axios.get(queryURL).then(function(response) {
 }
 
 function spotifySearch () {
+    if (userInfo === undefined) {
+        userInfo = "The+Sign+Ace+of+Base";
+    }
     spotify.search({ type: "track", query: userInfo, limit: 1}).then(function(response) {
         console.log("Artists: " + response.tracks.items[0].album.artists[0].name);
         console.log("Song Name: " + response.tracks.items[0].name);
         console.log("Song Preview: " + response.tracks.items[0].preview_url);
         console.log("Album Name: " + response.tracks.items[0].album.name);
-
+    
     })
 }
 
