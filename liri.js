@@ -55,7 +55,11 @@ function spotifySearch() {
         userInfo = "The+Sign+Ace+of+Base";
     }
     spotify.search({ type: "track", query: userInfo, limit: 1 }).then(function (response) {
-        console.log("Artists: " + response.tracks.items[0].album.artists[0].name);
+        var artists = response.tracks.items[0].album.artists[0].name;
+        for (i = 1; i < response.tracks.items[0].album.artists.length; i++) {
+            artists += ", " + response.tracks.items[0].album.artists[i].name;
+        }
+        console.log("Artists: " + artists);
         console.log("Song Name: " + response.tracks.items[0].name);
         console.log("Song Preview: " + response.tracks.items[0].preview_url);
         console.log("Album Name: " + response.tracks.items[0].album.name);
