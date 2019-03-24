@@ -1,3 +1,4 @@
+// All globally declared variables needed for modules to br run in the file and access to keys
 require("dotenv").config();
 var axios = require("axios");
 var keys = require("./keys.js");
@@ -5,17 +6,17 @@ var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 var moment = require("moment");
 var fs = require("fs");
-
+// Assigning all user info to variables for use in functions
 var userInput = process.argv;
 var userRequest = userInput[2];
 var userInfo = userInput[3];
-
+// makes a sstring out of all the user info entered
 for (i = 4; i < userInput.length; i++) {
     userInfo += "+" + userInput[i];
 }
 
 function runInfo() {
-
+    // Switch that checks the user input for what it is supposed to do
     switch (userRequest) {
         case "concert-this":
             concert();
@@ -41,6 +42,7 @@ runInfo();
 function concert() {
     var queryURL = "https://rest.bandsintown.com/artists/" + userInfo + "/events?app_id=codingbootcamp";
     axios.get(queryURL).then(function (response) {
+        // For loop ensures we get all of the venues
         for (i = 0; i < response.data.length; i++) {
             var name = "Venue Name: " + response.data[i].venue.name;
             var location = "Venue Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region;
@@ -48,12 +50,10 @@ function concert() {
             console.log(name);
             console.log(location);
             console.log(date);
-
+            // Appending information to the page
             fs.appendFile("log.txt", name + "\n" + location + "\n" + date + "\n" + "" + "\n", function(error) {
                 if (error) {
                     console.log(error);
-                } else {
-                    console.log("Data added to the log");
                 }
             })
         }

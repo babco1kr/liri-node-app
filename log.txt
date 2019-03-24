@@ -10,13 +10,13 @@ Venue Name: Vaiven
 Venue Location: Cuernavaca, 
 Date of event: 03/30/2019
 
-Venue Name: NCAA March Madness Music Fest AT&T Block Party
-Venue Location: Minneapolis, MN
-Date of event: 04/05/2019
-
 Venue Name: Ultra Music Festival Miami 
 Venue Location: Miami, FL
 Date of event: 03/31/2019
+
+Venue Name: NCAA March Madness Music Fest AT&T Block Party
+Venue Location: Minneapolis, MN
+Date of event: 04/05/2019
 
 Venue Name: XS Las Vegas
 Venue Location: Las Vegas, NV
@@ -30,17 +30,21 @@ Venue Name: XS Las Vegas
 Venue Location: Las Vegas, NV
 Date of event: 04/19/2019
 
+Venue Name: XS Las Vegas
+Venue Location: Las Vegas, NV
+Date of event: 04/26/2019
+
 Venue Name: Encore Beach Club
 Venue Location: Las Vegas, NV
 Date of event: 04/28/2019
 
 Venue Name: XS Las Vegas
 Venue Location: Las Vegas, NV
-Date of event: 04/26/2019
-
-Venue Name: XS Las Vegas
-Venue Location: Las Vegas, NV
 Date of event: 05/03/2019
+
+Venue Name: Encore Beach Club
+Venue Location: Las Vegas, NV
+Date of event: 05/05/2019
 
 Venue Name: XS Nightclub
 Venue Location: Las Vegas, NV
@@ -50,29 +54,33 @@ Venue Name: XS Las Vegas
 Venue Location: Las Vegas, NV
 Date of event: 05/20/2019
 
-Venue Name: Encore Beach Club
-Venue Location: Las Vegas, NV
-Date of event: 05/25/2019
-
 Venue Name: XS Nightclub
 Venue Location: Las Vegas, NV
 Date of event: 05/24/2019
 
 Venue Name: Encore Beach Club
 Venue Location: Las Vegas, NV
-Date of event: 05/05/2019
+Date of event: 05/25/2019
+
+Venue Name: XS Las Vegas
+Venue Location: Las Vegas, NV
+Date of event: 05/31/2019
 
 Venue Name: Encore Beach Club
 Venue Location: Las Vegas, NV
 Date of event: 06/02/2019
 
+Venue Name: Encore Beach Club
+Venue Location: Las Vegas, NV
+Date of event: 06/08/2019
+
 Venue Name: XS Las Vegas
 Venue Location: Las Vegas, NV
 Date of event: 06/09/2019
 
-Venue Name: Encore Beach Club
+Venue Name: XS Las Vegas
 Venue Location: Las Vegas, NV
-Date of event: 06/08/2019
+Date of event: 06/14/2019
 
 Venue Name: Encore Beach Club
 Venue Location: Las Vegas, NV
@@ -88,7 +96,7 @@ Date of event: 06/27/2019
 
 Venue Name: XS Las Vegas
 Venue Location: Las Vegas, NV
-Date of event: 06/14/2019
+Date of event: 06/28/2019
 
 Venue Name: Encore Beach Club
 Venue Location: Las Vegas, NV
@@ -98,13 +106,13 @@ Venue Name: Eurockeenes Festival
 Venue Location: Belfort, 
 Date of event: 07/04/2019
 
-Venue Name: XS Las Vegas
-Venue Location: Las Vegas, NV
-Date of event: 06/28/2019
-
 Venue Name: Balaton Sound Festival
 Venue Location: Balaton, 
 Date of event: 07/05/2019
+
+Venue Name: Palmesus
+Venue Location: Kristiansand, 
+Date of event: 07/06/2019
 
 Venue Name: Atlas Weekend Festival
 Venue Location: Kiev, 
@@ -114,37 +122,33 @@ Venue Name: Airbeat One Festival
 Venue Location: Neustadt-glewe, 
 Date of event: 07/13/2019
 
-Venue Name: Palmesus
-Venue Location: Kristiansand, 
-Date of event: 07/06/2019
-
 Venue Name: Les Vieilles Charrues
 Venue Location: Carhaix-plouguer, 
 Date of event: 07/18/2019
 
-Venue Name: XS Las Vegas
-Venue Location: Las Vegas, NV
-Date of event: 05/31/2019
-
 Venue Name: Tomorrowland
 Venue Location: Boom, 
-Date of event: 07/26/2019
+Date of event: 07/19/2019
 
 Venue Name: Parookaville
 Venue Location: Weeze, 
 Date of event: 07/20/2019
 
+Venue Name: Tomorrowland
+Venue Location: Boom, 
+Date of event: 07/26/2019
+
 Venue Name: Sands Steel Stage
 Venue Location: Bethlehem, PA
 Date of event: 08/02/2019
 
-Venue Name: Summer Sonic at Maishama 
-Venue Location: Osaka Prefecture, 
-Date of event: 08/17/2019
-
 Venue Name: Iowa State Fair Grandstand
 Venue Location: Des Moines, IA
 Date of event: 08/09/2019
+
+Venue Name: Summer Sonic at Maishama 
+Venue Location: Osaka Prefecture, 
+Date of event: 08/17/2019
 
 Venue Name: Summer Sonic at ZOZO Marine Stadium
 Venue Location: Tokyo, 
@@ -166,21 +170,25 @@ Venue Name: Bryce Jordan Center
 Venue Location: State College, Pennsylvania
 Date of event: 09/29/2019
 
-Venue Name: United Center
-Venue Location: Chicago, Illinois
-Date of event: 10/04/2019
-
 Venue Name: Little Caesars
 Venue Location: Detroit, Michigan
 Date of event: 10/03/2019
+
+Venue Name: United Center
+Venue Location: Chicago, Illinois
+Date of event: 10/04/2019
 
 Venue Name: Xcel Energy Center
 Venue Location: St. Paul, Minnesota
 Date of event: 10/05/2019
 
-Venue Name: Tomorrowland
-Venue Location: Boom, 
-Date of event: 07/19/2019
+Venue Name: Scotiabank Arena
+Venue Location: Toronto, 
+Date of event: 10/08/2019
+
+Venue Name: Bell Centre
+Venue Location: Montreal, 
+Date of event: 10/09/2019
 
 Venue Name: PPG Paints Arena
 Venue Location: Pittsburgh, Pennsylvania
@@ -194,21 +202,17 @@ Venue Name: Schottenstein Center
 Venue Location: Columbus, Ohio
 Date of event: 10/13/2019
 
-Venue Name: Scotiabank Arena
-Venue Location: Toronto, 
-Date of event: 10/08/2019
+Venue Name: Capital One Arena
+Venue Location: Washington, DC
+Date of event: 10/15/2019
 
 Venue Name: Barclay's Center 
 Venue Location: Brooklyn, New York
 Date of event: 10/17/2019
 
-Venue Name: Capital One Arena
-Venue Location: Washington, DC
-Date of event: 10/15/2019
-
-Venue Name: Bell Centre
-Venue Location: Montreal, 
-Date of event: 10/09/2019
+Venue Name: Bridgestone Arena
+Venue Location: Nashville, TN
+Date of event: 10/20/2019
 
 Venue Name: State Farm Arena
 Venue Location: Atlanta, Georgia
@@ -226,17 +230,17 @@ Venue Name: Amway Center
 Venue Location: Orlando, Florida
 Date of event: 10/26/2019
 
-Venue Name: Bridgestone Arena
-Venue Location: Nashville, TN
-Date of event: 10/20/2019
+Venue Name: Smoothie King Center
+Venue Location: New Orleans, Louisiana
+Date of event: 10/29/2019
+
+Venue Name: American Airlines Center
+Venue Location: Dallas, Texas
+Date of event: 10/31/2019
 
 Venue Name: Frank Erwin Center
 Venue Location: Austin, Texas
 Date of event: 11/01/2019
-
-Venue Name: Smoothie King Center
-Venue Location: New Orleans, Louisiana
-Date of event: 10/29/2019
 
 Venue Name: Toyota Center
 Venue Location: Houston, Texas
@@ -250,6 +254,10 @@ Venue Name: Bankers Life Fieldhouse
 Venue Location: Indianapolis, Indiana
 Date of event: 11/07/2019
 
+Venue Name: Enterprise Center
+Venue Location: Saint Louis, Missouri
+Date of event: 11/08/2019
+
 Venue Name: Coliseum at Alliant Energy Center
 Venue Location: Madison, Wisconsin
 Date of event: 11/09/2019
@@ -258,21 +266,21 @@ Venue Name: Fiserv Forum
 Venue Location: Milwaukee, Wisconsin
 Date of event: 11/12/2019
 
-Venue Name: American Airlines Center
-Venue Location: Dallas, Texas
-Date of event: 10/31/2019
-
 Venue Name: Chesapeake Energy Center
 Venue Location: Oklahoma City, Oklahoma
 Date of event: 11/14/2019
 
-Venue Name: Enterprise Center
-Venue Location: Saint Louis, Missouri
-Date of event: 11/08/2019
-
 Venue Name: Sprint Center
 Venue Location: Kansas City, Missouri
 Date of event: 11/15/2019
+
+Venue Name: Intrust Bank Arena
+Venue Location: Wichita, Kansas
+Date of event: 11/16/2019
+
+Venue Name: Pepsi Center
+Venue Location: Denver, Colorado
+Date of event: 11/19/2019
 
 Venue Name: Vivint Smart Home Arena
 Venue Location: Salt Lake City, Utah
@@ -282,9 +290,9 @@ Venue Name: Talking Stick Resort Arena
 Venue Location: Phoenix, Arizona
 Date of event: 11/23/2019
 
-Venue Name: Intrust Bank Arena
-Venue Location: Wichita, Kansas
-Date of event: 11/16/2019
+Venue Name: The Forum
+Venue Location: Los Angeles, California
+Date of event: 11/26/2019
 
 Venue Name: Viejas Arena
 Venue Location: San Diego, California
@@ -294,37 +302,29 @@ Venue Name: Chase Center
 Venue Location: San Francisco, California
 Date of event: 11/29/2019
 
-Venue Name: Golden 1 Center
-Venue Location: Sacramento, California
-Date of event: 12/01/2019
-
-Venue Name: Pepsi Center
-Venue Location: Denver, Colorado
-Date of event: 11/19/2019
+Venue Name: Pepsi Live at Rogers Arena
+Venue Location: Vancouver, 
+Date of event: 12/06/2019
 
 Venue Name: Tacoma Dome
 Venue Location: Tacoma, Washington
 Date of event: 12/03/2019
 
-Venue Name: Pepsi Live at Rogers Arena
-Venue Location: Vancouver, 
-Date of event: 12/06/2019
+Venue Name: Golden 1 Center
+Venue Location: Sacramento, California
+Date of event: 12/01/2019
 
 Venue Name: Moda Center
 Venue Location: Portland, Oregon
 Date of event: 12/05/2019
 
-Venue Name: The Forum
-Venue Location: Los Angeles, California
-Date of event: 11/26/2019
-
-Title: Finding Nemo
-Release Year: 2003
-IMDB Rating: 8.1
-Rotten Tomatoes Rating: 99%
+Title: Toy Story 2
+Release Year: 1999
+IMDB Rating: 7.9
+Rotten Tomatoes Rating: 100%
 Country Produced in: USA
-Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
-Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+Plot: When Woody is stolen by a toy collector, Buzz and his friends set out on a rescue mission to save Woody before he becomes a museum toy property with his roundup gang Jessie, Prospector, and Bullseye.
+Actors: Tom Hanks, Tim Allen, Joan Cusack, Kelsey Grammer
 
 Artists: Glee Cast
 Song Name: Loser Like Me (Glee Cast Version)
